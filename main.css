@@ -1,0 +1,162 @@
+
+body {
+    max-width: 100%;
+    font-family: 'Source Sans', sans-serif;
+    margin-left: 20rem;
+    width: 900px;
+
+}
+.logo-gesamt{
+    display: flex;
+    align-items: center;
+
+}
+.logo-bereich{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.logo{
+    display: block;
+    overflow: clip;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #16416B;
+    position: fixed;
+    top: 0;
+    width: 900px;
+    max-width: 100%;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #16416B;
+
+    top: 0;
+    width: 900px;
+    height: 50px;
+}
+
+footer li {
+    float: left;
+}
+
+footer li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+
+}
+
+.section1{
+    background-color: steelblue;
+    margin-top: 50px;
+    padding: 35px 0 15px 30px;
+    max-width: 100%;
+
+}
+
+.section1 img{
+    max-width: 100%;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+
+section p{
+    color: white;
+    margin: 16px 15px 16px 0;
+}
+
+h3{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    margin: 5px;
+}
+h4{
+    font-size: 25px;
+}
+h5{
+    font-size: 17px;
+}
+article p{
+    margin-bottom: 45px;
+}
+
+article h5, article p {
+    margin-left: 32px;
+}
+.putin img{
+    width: 130px;
+
+}
+.putin{
+
+    padding: 5px 0 0 50px;
+    background-color: aliceblue;
+    border-left: 10px solid dodgerblue;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 100%;
+    margin: auto auto auto 40px;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+.putin img{
+    display: block;
+    text-align: center;
+    position: absolute;
+
+}
+h6{
+    margin: auto auto auto 40px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.putin p {
+    display: block;
+    text-align: center;
+}
+div.putin > p.putinlink {
+    font-size: 15px;
+}
+footer{
+    display:block;
+    margin-bottom: 1rem;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+
+}
+footer p {
+    color: black;
+}
+
+
+
